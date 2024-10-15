@@ -4,6 +4,7 @@ _"There are only two hard things in Computer Science: cache invalidation and nam
 – Phil Karlton
 
 ## Introduction to Caching
+![CachingIntro](caching.png)
 
 A cache's primary purpose is to improve data retrieval performance by reducing the need to access a slower storage layer. Caches store data transiently, trading off storage capacity for speed. They often hold a subset of the overall dataset, making data access faster.
 
