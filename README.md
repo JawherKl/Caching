@@ -87,7 +87,7 @@ Caching may not be effective in the following cases:
 - Increases read throughput
 
 ## Examples of Caching Technologies
-- **Redis**
-- **Memcached**
-- **Amazon Elasticache**
-- **Aerospike**
+- [**Redis**](https://github.com/redis)
+- [**Memcached**](https://github.com/memcached)
+- [**Amazon Elasticache**](https://github.com/awsdocs/amazon-elasticache-docs)
+- [**Aerospike**](https://github.com/aerospike)
