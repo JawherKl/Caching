@@ -59,6 +59,9 @@ Eviction policies determine how old or less useful data is removed from the cach
 A distributed cache pools memory from multiple computers, creating a shared in-memory data store. It provides faster data access and can scale beyond the memory limits of a single computer.
 
 ### Global Cache
+
+![CachingIntro](global-cache.png)
+
 A global cache is a single shared cache across all application nodes. When data is missing from the cache, it retrieves it from the underlying data store.
 
 ## Use Cases
