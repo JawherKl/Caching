@@ -29,8 +29,16 @@ A cache works similarly to a computer’s memory, storing data in multiple level
 Cache invalidation ensures that outdated data in the cache is removed or replaced. It’s crucial for maintaining data consistency. There are three primary caching methods:
 
 1. **Write-through cache**: Writes data to both the cache and the primary storage simultaneously.
+   
+  ![CachingIntro](write-through-cache.png)
+
 2. **Write-around cache**: Bypasses the cache and writes data directly to the primary storage.
+   
+  ![CachingIntro](write-around-cache.png)
+
 3. **Write-back cache**: Writes data only to the cache initially, then asynchronously syncs with the primary storage.
+   
+  ![CachingIntro](write-back-cache.png)
 
 ## Cache Eviction Policies
 
@@ -45,6 +53,9 @@ Eviction policies determine how old or less useful data is removed from the cach
 ## Types of Caching Systems
 
 ### Distributed Cache
+
+![CachingIntro](distributed-cache.png)
+
 A distributed cache pools memory from multiple computers, creating a shared in-memory data store. It provides faster data access and can scale beyond the memory limits of a single computer.
 
 ### Global Cache
